@@ -81,3 +81,15 @@ body {
     border-bottom: 0;
   }
 }
+
+/* For the .credits links */
+.credits a {
+    float: none;
+    padding: 10px 15px 10px;
+    color: #777;
+    text-decoration: none;
+}
+
+.credits a:hover {
+    color: black;
+}
