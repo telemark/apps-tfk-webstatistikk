@@ -26,13 +26,13 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <div class="header">
+    <div class="header" data-ng-controller="MenuCtrl">
         <ul class="nav nav-pills pull-right">
-            <li class="active"><a ng-href="#">Hjem</a></li>
-            <li><a ng-href="#/trafikk">Trafikk</a></li>
-            <li><a ng-href="#/some">Sosiale medier</a></li>
-            <li><a ng-href="#/medier">Medieoppslag</a></li>
-            <li><a ng-href="#/kvalitet">Kvalitet</a></li>
+            <li data-ng-class="{'active': thispath == '/'}"><a ng-href="#">Hjem</a></li>
+            <li data-ng-class="{'active': thispath == '/trafikk'}"><a data-ng-href="#/trafikk">Trafikk</a></li>
+            <li data-ng-class="{'active': thispath == '/some'}"><a data-ng-href="#/some">Sosiale medier</a></li>
+            <li data-ng-class="{'active': thispath == '/medier'}"><a data-ng-href="#/medier">Medieoppslag</a></li>
+            <li data-ng-class="{'active': thispath == '/kvalitet'}"><a data-ng-href="#/kvalitet">Kvalitet</a></li>
         </ul>
         <h3 class="text-muted">Telemark fylkeskommune</h3>
     </div>
@@ -71,6 +71,7 @@
         <script src="scripts/controllers/some.js"></script>
         <script src="scripts/controllers/medier.js"></script>
         <script src="scripts/controllers/kvalitet.js"></script>
+        <script src="scripts/controllers/menu.js"></script>
         <!-- endbuild -->
 </body>
 </html>
