@@ -32,3 +32,11 @@ angular.module('appsTfkWebstatistikkApp', [
         redirectTo: '/'
       });
   });
+
+google.load('visualization', '1', {
+  packages: ['corechart']
+});
+
+google.setOnLoadCallback(function () {
+  angular.bootstrap(document.body, ['appsTfkWebstatistikkApp']);
+});
