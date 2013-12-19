@@ -28,6 +28,10 @@ angular.module('appsTfkWebstatistikkApp', [
         templateUrl: 'views/kvalitet.html',
         controller: 'KvalitetCtrl'
       })
+      .when('/personvern', {
+        templateUrl: 'views/personvern.html',
+        controller: 'PersonvernCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
