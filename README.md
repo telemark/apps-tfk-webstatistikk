@@ -1,4 +1,4 @@
-#Telemark fylkeskommune - webstatistikk#
+#Telemark fylkeskommune - webstatistikk [![Build Status](https://travis-ci.org/telemark/apps-tfk-webstatistikk.png?branch=master)](https://travis-ci.org/telemark/apps-tfk-webstatistikk) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)#
 
 Dette er websidene som viser litt av webstatistikken vår.
 
