@@ -1,5 +1,7 @@
 #Telemark fylkeskommune - webstatistikk [![Build Status](https://travis-ci.org/telemark/apps-tfk-webstatistikk.png?branch=master)](https://travis-ci.org/telemark/apps-tfk-webstatistikk) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)#
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/apps-tfk-webstatistikk.svg)](https://greenkeeper.io/)
+
 Dette er websidene som viser litt av webstatistikken vår.
 
 De viser besøksstatistikk for [www.telemark.no] (http://www.telemark.no) i tillegg til trafikk fra ulike sosiale medier, antall følgere på Telemark fylkeskommunes offisielle kontoer og antall medieoppslag om Telemark fylkeskommune.
